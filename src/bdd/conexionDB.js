@@ -14,7 +14,7 @@ const conexion = new Sequelize(
     password,
     {
         host,
-        dialect
+        dialect,
     }
 );
 
